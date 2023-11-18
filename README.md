@@ -1,14 +1,14 @@
-Jogo de Aventura: Batalha de Personagens
-Este é um simples programa em C que simula uma batalha entre personagens de um jogo de aventura. Cada personagem possui um nome, idade e tipo associado. O programa determina o tipo de ataque que cada personagem realiza com base em seu tipo.
+Classes de Personagens
+Este é um simples programa em C que simula o ataque dos personagens de acordo com a tipo da classe. Cada personagem possui um nome, idade e tipo associado. O programa determina o tipo de ataque que cada personagem realiza com base em seu tipo.
 
 Estrutura do Personagem
 Cada personagem é representado por uma estrutura Personagem com as seguintes propriedades:
 
 nome: Nome do personagem.
 idade: Idade do personagem.
-tipo: Tipo do personagem (mago, guerreiro, Clérigo, assassino, etc.).
+tipo: Tipo da classe  do personagem (mago, guerreiro, Clérigo, assassino, etc.).
 Função de Ataque
-O programa contém uma função atacar que simula o ataque de um personagem. O tipo de ataque é determinado com base no tipo do personagem:
+O programa contém uma função atacar que simula o ataque de um personagem. O tipo de ataque é determinado com base no tipo da classe do personagem:
 
 Mago: "usou magia"
 Guerreiro: "usou espada"
